@@ -9,3 +9,8 @@ const int current_year = 2023;
 std::cout << "C++ is the best programming language in "<<current_year<<"!"<< std::endl;
 return 0;
 }
+
+void testing_func()
+{
+    std::cout << "Hello World"<< std::endl;
+}
