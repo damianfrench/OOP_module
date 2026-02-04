@@ -41,21 +41,22 @@ namespace Group2
     }
     void dividing_numbers()
     {
-        int x;
-        int y;
+        double x;
+        double y;
         std::cout <<"Dividing Numbers" << std::endl;
         std::cout <<"Input a number:" << std::endl;
         std::cin >> x;
         std::cout <<"Input a second number" << std::endl;
         std::cin >> y;
-        std::cout <<"Divided numbers: "<< x/y <<std::endl;
+        double z=x/y;
+        std::cout <<"Divided numbers: "<< z <<std::endl;
     }
 }
 
 int main()
 {
-    Group1::adding_numbers();
-    Group2::multiplying_numbers();
-    Group1::subtracting_numbers();
+    // Group1::adding_numbers();
+    // Group2::multiplying_numbers();
+    // Group1::subtracting_numbers();
     Group2::dividing_numbers();
 }
