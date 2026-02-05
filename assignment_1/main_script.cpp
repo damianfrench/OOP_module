@@ -20,7 +20,7 @@ namespace Bohr_atom
         }
         if (n_i<n_j){throw std::invalid_argument("initial energy level cannot be lower than the final for transitions emitting photons");}
         if (n_i==0 || n_j==0){throw std::invalid_argument("n must be greater than 0");}
-        if (Z>118){throw std::invalid_argument("Z is larger than any known element");}
+        if (Z>118 || Z==0){throw std::invalid_argument("Z is not any known element");}
         if (!(std::floor(n_i)==n_i) || !(std::floor(n_j)==n_j)){throw std::invalid_argument("n must be an integer");}
 
         std::tuple<int, double, double, char> inputs;
