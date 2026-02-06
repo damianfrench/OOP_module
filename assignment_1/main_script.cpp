@@ -60,15 +60,14 @@ int main()
         try
         {
             std::tuple<int, double, double, char> inputs=Bohr_atom::taking_calculation_inputs();
-            std::cout << std::get<0>(inputs) << std::endl;
             double Energy=Bohr_atom::Bohr_calculation(inputs);
             if (std::get<3>(inputs)=='J')
             {
-                std::cout << Energy << 'J' << std::endl;
+                std::cout << "The energy of the photon emitted is:" << Energy << 'J' << std::endl;
             }
             else if (std::get<3>(inputs)=='e')
             {
-                std::cout << Energy << "eV" << std::endl;
+                std::cout << "The energy of the photon emitted is:" << Energy << "eV" << std::endl;
             } 
         } catch(std::exception& e)
         {

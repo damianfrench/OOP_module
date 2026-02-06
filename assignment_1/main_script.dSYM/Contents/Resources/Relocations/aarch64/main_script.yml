@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/damianfrench/dev/OOP_module/assignment_1/main_script'
+binary-path:     '/Users/damianjoshuafrench/dev/OOP_module/assignment_1/main_script'
 relocations:     []
 ...
