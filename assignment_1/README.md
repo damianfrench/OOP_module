@@ -18,3 +18,7 @@ The inputs must be seperated by either spaces of each on a new line.
 
 The result is outputted to terminal, as well as any errors that are thrown.
 After each calculation the user is asked if they want to do another, where they need to enter either (y/n) to continue or end then program.
+
+### Use of AI
+
+No AI was used in the making of this script.
