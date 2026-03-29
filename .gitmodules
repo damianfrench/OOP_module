@@ -7,3 +7,6 @@
 [submodule "assignment-4-damianfrench"]
 	path = assignment-4-damianfrench
 	url = https://github.com/UofM-PHYS30762/assignment-4-damianfrench.git
+[submodule "assignment-5-damianfrench"]
+	path = assignment-5-damianfrench
+	url = https://github.com/UofM-PHYS30762/assignment-5-damianfrench.git
