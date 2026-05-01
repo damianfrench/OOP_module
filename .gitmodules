@@ -10,3 +10,6 @@
 [submodule "assignment-5-damianfrench"]
 	path = assignment-5-damianfrench
 	url = https://github.com/UofM-PHYS30762/assignment-5-damianfrench.git
+[submodule "project-3-a-particle-detector-damianfrench"]
+	path = project-3-a-particle-detector-damianfrench
+	url = https://github.com/UofM-PHYS30762/project-3-a-particle-detector-damianfrench.git
